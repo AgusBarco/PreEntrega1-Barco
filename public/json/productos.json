@@ -1,0 +1,62 @@
+[
+    {
+    "id": 8,
+    "nombre": "Apple TV",
+    "marca": "Apple ",
+    "modelo": "32 Gb",
+    "precio": 45000,
+    "stock": 30,
+    "img": "apple-tv.jpg"
+    },
+
+    {
+        "id": 4,
+        "nombre": "Camara Deportiva",
+        "marca": "iQual",
+        "modelo": "C40",
+        "precio": 8000,
+        "stock": 30,
+        "img": "camara-iqual.jpg"
+    },
+
+    {
+        "id": 7,
+        "nombre": "iPhone",
+        "marca": "Apple",
+        "modelo": "X Silver",
+        "precio": 250000,
+        "stock": 10,
+        "img": "iphone-x.jpg"
+    },
+
+    {
+        "id": 10,
+        "nombre": "Mac",
+        "marca": "Apple",
+        "modelo": "Air",
+        "precio": 13000,
+        "stock": 25,
+        "img": "mac-air.jpg"
+    },
+
+    {
+        "id": 6,
+        "nombre": "Auriculares",
+        "marca": "Motorola",
+        "modelo": "Pulse Escape",
+        "precio": 4000,
+        "stock": 20,
+        "img": "motorola-pulse.jpg"
+    },
+
+    {
+        "id": 5,
+        "nombre": "Mouse",
+        "marca": "Logitech",
+        "modelo": "G502",
+        "precio": 1400,
+        "stock": 7,
+        "img": "mouse-logitech.jpg"
+    }
+]
+

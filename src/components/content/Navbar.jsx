@@ -1,8 +1,8 @@
 import React from 'react';
-import Form from './Form';
-import Dropdown from './Dropdown';
-import Secciones from './Secciones';
-import Icons from './Icons';
+import Form from '../layouts/Form';
+import Dropdown from '../layouts/Dropdown';
+import Secciones from '../layouts/Secciones';
+import Icons from '../layouts/Icons';
 
 const Navbar = () => {
     const listDrowdon=["Cuadros", "Neon"]
