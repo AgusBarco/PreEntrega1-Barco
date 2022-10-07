@@ -1,21 +1,16 @@
-import React from 'react';
+import {Link} from 'react-router-dom'
 
 const Secciones = () => {
     return (
         <>
                  <li className="nav-item">
-                <a className="nav-link active" href="#">Home
-                  <span className="visually-hidden">(current)</span>
-                </a>
+                  <Link className="nav-link active" to="/"><button className='btn btn-secondary'><i className="fas fa-home"></i></button></Link>
+                  </li>
+              <li className="nav-item">
+               <Link className="nav-link active" to="/contacto"><button className='btn btn-secondary'><i className="fas fa-comments"></i></button></Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Features</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Pricing</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">About</a>
+                <Link className="nav-link active" to="/about"><button className='btn btn-secondary'><i className="fas fa-address-card"></i></button></Link>
               </li>
         </>
     );

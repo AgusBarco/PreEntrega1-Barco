@@ -1,8 +1,8 @@
-import React from 'react';
-import Form from '../layouts/Form';
+import {Link} from 'react-router-dom';
 import Dropdown from '../layouts/Dropdown';
 import Secciones from '../layouts/Secciones';
-import Icons from '../layouts/Icons';
+
+
 
 const Navbar = () => {
     const listDrowdon=["Cuadros", "Neon"]
@@ -13,10 +13,17 @@ const Navbar = () => {
                     <ul className="navbar-nav me-auto">
                         <Secciones/>
                         <Dropdown lista={listDrowdon}/>
-                        <Icons/>
+                        
                     </ul>
-                    <Form busqueda="Buscar producto"/>
+                    <ul className="navbar-nav me-auto">
+                        <li className="nav-item">
+                        <Link className="nav-link" to="/carrito"><button className='btn btn-secondary'><i className="fas fa-cart-plus"></i></button></Link>
+                        </li>
+                     </ul>
                 </div>
+                 
+                  
+                 
             </div>
         </nav>
     );
